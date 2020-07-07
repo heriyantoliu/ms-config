@@ -3,3 +3,4 @@ server_name: Accountservice TEST
 the_password: '{cipher}AQCTfqD4bs5/qYC4vVmgSHIZkBGGv+BSqmag+sYK5Qe/cDOcR8oFAtXghmmwHrjLmeHHN6hnbHyMuM5hlhJFEVyQe/hNqaiGmo40otqJX1g8dpCZH/CuAXxL4+e7igiooD6cWM7EtKei9GROz/OkEhuNtpcpSbpxCWEXjtz8q7V1jQAWHiV9QS2y3UhgPvvlRM435NKj9p6qv0OWCxDGzGMeVXJaD9RhqWX5uAyps/9asoaP7cv0/fdYA3e+UmOGV8hPf2yTPix30ova/bZxpjGQKGzbGEvR1BpegMe7jdR3SdcWL0+Kmu+L4UVeTk1UQ37ShXT0hPpNNyGKdkPeG/X2YqIQ4NQlCHF2y0JPqTN9mE1zm9cIJMbcZ1r/i9aIANA='
 amqp_server_url: amqp://guest:guest@rabbitmq:5672/
 config_event_bus: springCloudBus
+hystrix.command.quotes-service.Timeout: 5000
